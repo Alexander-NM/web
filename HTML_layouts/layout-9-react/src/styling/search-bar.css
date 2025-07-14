@@ -1,0 +1,40 @@
+.search-form {
+    display: flex;
+    align-items: center;
+    padding: 25px 10px;
+    margin-left: auto;
+}
+
+/* Style the search field */
+.search-form > .imput-field {
+    margin: 0;
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    width: 80%;
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+/* Style the submit button */
+.search-form > .search-btn {
+    margin-left: 10px;
+    padding: 12px;
+    background: #f1f1f1;
+    border-radius: 10px;
+    font-size: 17px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form > .search-btn:hover{
+    background: #ccc;
+    transition: background .5s;
+}
+
+.search-form > .imput-field:focus{
+    outline-color: #04AA6D;
+}

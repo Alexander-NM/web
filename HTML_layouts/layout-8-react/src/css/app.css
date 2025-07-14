@@ -1,0 +1,24 @@
+header {
+    width: 95%;
+    margin: auto;
+    background-color: #efefef;
+    text-align: center;
+    border-radius: 15px;
+    border: 1px solid #ccc;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    padding: 1em;
+}
+
+.web-page {
+    display: flex;
+}
+
+.left-side-container {
+    flex: 70%;
+}
+
+.right-side-container {
+    flex: 30%;
+    height: 100vh;
+}

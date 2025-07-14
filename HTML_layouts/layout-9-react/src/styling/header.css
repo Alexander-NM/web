@@ -1,0 +1,13 @@
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f2f2f2;
+    border: solid #04AA6D;
+    border-radius: 10px;
+    margin-inline: 5px;
+    margin-bottom: 10px;
+}
+
+header > svg {
+    margin-left: 20px;
+}

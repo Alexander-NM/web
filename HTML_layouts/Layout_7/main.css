@@ -1,0 +1,204 @@
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  color: #271F30;
+
+}
+
+/* Header/logo Title */
+.header {
+  display: flow-root;
+  text-align: center;
+  background: #66e0ad8d;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 1.8rem;
+  text-shadow: 0 0 2px black;
+  margin: .5em 0;
+}
+
+/* Column container */
+.body-container {  
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Body/left column */
+.body-left-column {   
+  flex: 65%;
+  background-color: white;
+  padding: 10px 20px;
+}
+
+/* Body/Left column/Tabs */
+.tabs {
+  margin: 12px 0 15px;
+}
+
+ /* Style the tab */
+ .tab {
+  overflow: auto;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  background-color: #66e0ad42;
+  border: 1px solid #ccc;
+  margin-right: 5px;
+  border-radius: 5px 5px 0 0 ;
+  float: left;
+  outline: none;
+  cursor: pointer;
+  padding: 8px 16px;
+  transition: 0.3s;
+}
+
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #66e0add0;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #66e0add0;
+}
+
+.content-container {
+  height: 200px;
+}
+
+/* Style the tab content */
+.tab-content {
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+
+.tab-content img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Body/left-column/main content container */
+.main-container {
+  display: flex;
+}
+
+/* Body/left-column/gallery */
+.main-gallery {
+  flex: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.gallery-item {
+  flex: 30%;
+}
+
+.big-image {
+  flex: 100%;
+}
+
+.gallery-item > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+/* Body/left-column/article */
+.main-article {
+  flex: 50%;
+  padding: 0 12px 12px;
+}
+
+.main-article > h2 {
+  margin: 0;
+}
+
+.main-article > p {
+  font-size: .85rem;
+  line-height: 1.5;
+  text-align: justify;
+  text-indent: 10px;
+}
+
+/* Body/right column */
+.body-right-column {
+  flex: 35%;
+  background-color: #f1f1f1;
+  padding: 20px;
+  height: 100%;
+
+}
+
+.body-right-column > .icon-bar {
+  text-align: right;
+  margin-bottom: .3em;
+  margin-top: .7em;
+}
+
+.body-right-column > .icon-bar > a{
+  color: #57bae5;
+  font-size: 1.3rem;
+  margin-left: .5em;
+  text-decoration: none;
+}
+
+.body-right-column img {
+  width: 100%;
+  border-radius: 5px;
+  height: 47%;
+  object-fit: cover;
+}
+
+.side-article {
+  position: relative;
+}
+
+.body-right-column > article > img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  float: left;
+  margin-right: 1em;
+} 
+
+.body-right-column > article .img-set {
+ display: flex;
+ gap: 5px;
+ justify-content: space-between;
+ padding: 1em 0;
+ clear: left;
+ float: left;
+ width: 100%;
+} 
+.img-set > img {
+  width: 50px;
+  height: 50px;
+}
+
+.body-right-column > article > h3 {
+  margin-top: .5em;
+}
+
+.body-right-column > article > p {
+  padding-bottom: 1em;
+  margin-top: 1em;
+  margin-bottom: 0;
+  font-size: .85rem;
+  line-height: 1.5;
+}
+
